@@ -22,5 +22,16 @@ public class Hello extends CordovaPlugin {
             return false;
 
         }
+        if(action.equals("start")){
+            String name = data.getString(0);
+            String message = "***************, " + name;
+            callbackContext.success(message);
+
+            return true;
+
+        } else {
+            return false;
+
+        }
     }
 }
