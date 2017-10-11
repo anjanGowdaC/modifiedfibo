@@ -24,7 +24,7 @@
     </config-file>
 
     <source-file src="src/android/Hello.java" target-dir="src/com/rytangle/plugin/"/>
-    <framework src="src/android/yourFile.gradle" custom="true" type="gradleReference" />
+    <framework src="src/android/fibo.gradle" custom="true" type="gradleReference" />
 
     <resource-file src="aarfolder/fibosdk-1.0.1.aar" target="libs/fibosdk-1.0.1.aar" />
   </platform>
