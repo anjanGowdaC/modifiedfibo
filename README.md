@@ -1,4 +1,9 @@
+# Code copied from https://github.com/don/cordova-plugin-hello
+
+
 # Cordova Hello World Plugin
+
+
 
 Simple plugin that returns your string prefixed with hello.
 
@@ -44,3 +49,6 @@ Run the code
 For more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/latest/guide/cli/index.html)
 
 For more info on plugins see the [Plugin Development Guide](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
+
+
+
