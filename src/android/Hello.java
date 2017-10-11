@@ -22,9 +22,15 @@ public class Hello extends CordovaPlugin {
             return false;
 
         }
+
+            }
+
+  @Override
+    public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
+
         if(action.equals("start")){
             String name = data.getString(0);
-            String message = "***************, " + name;
+            String message = "start " + name;
             callbackContext.success(message);
 
             return true;
